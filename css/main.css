@@ -1,19 +1,36 @@
 body {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  margin-left: 30px;
-  background-color:	#00FFFF;
+   background-image: url("https://images.yourstory.com/2016/06/13.Why-you-should-be-investing-in-sports-startups.jpg");
+   background-color: #cccccc;
+   font-family: "Times New Roman", Times, serif;
+   height: 50%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
-h1, h2 {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
 
-h2 {
-  text-decoration: underline;
-  padding-top: 20px;
+body {
 }
-
-label {
-  font-weight: normal;
+ #form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+ .form-item {
+  margin-right: 1.8rem;
+}
+ label.primary {
+  display: block;
+  margin: 0.4em 0;
+}
+ label::after {
+  content: ":";
+}
+ button, input[type="submit"] {
+  margin-top: 1rem;
+}
+ #reading-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
